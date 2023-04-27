@@ -173,7 +173,7 @@ font-size: 1.5em;
 }
 .conte-form {
     grid-area: formulario;
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
@@ -195,6 +195,21 @@ font-size: 1.5em;
 .conte-form button {
     width: 100%;
     height: 30px;
-    background-color: greenyellow;
+    background-color: aquamarine;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(175, 174, 174);
+    grid-area: footer;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    
 
 }
