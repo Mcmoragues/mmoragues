@@ -48,7 +48,6 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-a.active,
 a:hover {
     background: #1b9bff;
     transition: .5s;
@@ -98,7 +97,6 @@ a:hover {
 }
 .tarjetacarrusel{
 height: 100%;
-z-index: 1;
 }
 .flechascarrusel{
     position: absolute;
@@ -110,6 +108,50 @@ z-index: 1;
     justify-content: space-between;
     padding: 20px;
 }
+
+.carrtext {
+    position: absolute;
+    top: 0;
+    height: 20%;
+    width: 30%;
+    align-items: self-end;
+    justify-content: end;
+    padding: 20px;
+    color: white;
+    margin: 10% ;
+
+}
+
+#quiero:hover {
+    background-color: #1b9bff;
+    transition: 1s;
+    
+}
+
+#comprar:hover {
+    background-color: #1b9bff;
+    transition: 1s;
+}
+
+#quiero {
+    width: 30%;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#comprar {
+    width: 30%;
+    height: initial;
+    background-color: green;
+    border: solid white 1px;
+    border-radius: 5px;
+    color: white;
+
+}
+
 #tarjeta1{background-color: blueviolet;}
 #tarjeta2{background-color: steelblue;}
 #tarjeta3{background-color: aquamarine;}
@@ -159,7 +201,7 @@ font-size: 1.5em;
 
 .playa img {width: 100%; height: 100%;}
 .texto{
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(104, 103, 103);
 }
 
 .texto p {
@@ -196,6 +238,11 @@ font-size: 1.5em;
     width: 100%;
     height: 30px;
     background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.form input { 
+    width: 49.5%;
 }
 
 .footer {
@@ -210,6 +257,5 @@ font-size: 1.5em;
     width: 100%;
     height: 50px;
     align-items: center;
-    
-
 }
+
