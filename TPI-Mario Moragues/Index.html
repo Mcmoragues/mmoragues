@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <div class="grid-layout"> 
+         <nav>
+            <!-- <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="checkbtn">
+                <i class="fa fa-bars"></i> -->
+            
+             
+            <label class="logo"><img src="Imagenes/codoacodo.png" alt="logo"></label>
+            <ul>
+                <li><a href="#">La conferencia</a></li>
+                <li><a href="#">Los oradores</a></li>
+                <li><a href="#">El lugar y la fecha</a></li>
+                <li><a href="#">Conviértete en orador</a></li>
+                <li><a href="#" class="comprar">Comprar tickets</a></li>
+            </ul>
+         </nav>
+        
+         <div id="conteitemcarrusel">
+            <div class="ItemCarrusel" id="itemcarrusel1">
+                <div class="tarjetacarrusel" id="tarjeta1">
+                  <img src="Imagenes/ba1.jpg" alt="BsAS1">
+                </div>
+                <div class="flechascarrusel">
+                <a href="#itemcarrusel3">
+                        <i><img src="Imagenes/arrow_back.png" alt="I"></i>
+                    </a>
+                 <a href="#itemcarrusel2">
+                     <i><img src="Imagenes/arrow_forward.png" alt="D"></i>
+                 </a>
+                 </div>
+         </div>
+            <div class="ItemCarrusel" id="itemcarrusel2" >
+             <div class="tarjetacarrusel" id="tarjeta2">
+              <img src="Imagenes/ba2.jpg" alt="BSAS2">
+                </div>
+                <div class="flechascarrusel">
+                    <a href="#itemcarrusel1">
+                      <i><img src="Imagenes/arrow_back.png" alt="I"></i>
+                 </a>
+                 <a href="#itemcarrusel3">
+                        <i><img src="Imagenes/arrow_forward.png" alt="D"></i>
+                    </a>
+                </div>
+                
+            </div>
+            <div class="ItemCarrusel" id="itemcarrusel3">
+                <div class="tarjetacarrusel" id="tarjeta3">
+                    <img src="Imagenes/ba3.jpg" alt="BsAs3">
+                </div>
+                <div class="flechascarrusel">
+                    <a href="#itemcarrusel2">
+                        <i><img src="Imagenes/arrow_back.png" alt="I"></i>
+                    </a>
+                 <a href="#itemcarrusel1">
+                     <i><img src="Imagenes/arrow_forward.png" alt="D"></i>
+                    </a>
+
+                    
+                </div>
+                
+            </div>
+            <div class="carrtext">
+                <h3>Conf BS AS</h3>
+                <p>Llega por primera vez a la Argentina un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti ¡Te esperamos!</p>
+                <br><br>
+                <button id="quiero">Quiero ser orador</button>
+                <button id="comprar">Comprar tickets</button>
+
+            </div>
+       
+         </div>
+         <div id="contepuntos">
+         <a href="#itemcarrusel1">*</a>
+            <a href="#itemcarrusel2">*</a>
+            <a href="#itemcarrusel3">*</a>
+         </div> 
+
+         <!-- <h2>Conoce a los oradores</h2> -->
+
+         <div class="conteorador"> 
+            <div class="orador"><img src="Imagenes/steve.jpg" alt="Steve"></div>
+            <div class="orador"><img src="Imagenes/bill.jpg" alt="Bill"></div>
+            <div class="orador"><img src="Imagenes/ada.jpeg" alt="Ada"></div>
+        
+            <div class="orador"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium minima incidunt magni sint. Provident, hic.</p></div>
+
+            <div class="orador"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia illo voluptate cumque, animi maxime!</p> </div>
+
+            
+            <div class="orador">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, vel sed quae odit ipsum eum.</p>
+            </div>
+         </div>
+
+         <div class="contefoto">
+            <div class="playa"> <img src="Imagenes/honolulu.jpg" alt="Playa"></div>
+            <div class="texto"> 
+                <h3>BS As - Octubre</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vel minus dolor animi consequatur, mollitia quas nemo corrupti quisquam dicta quaerat maxime sapiente officia totam itaque dignissimos iste repudiandae nulla!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia consequatur labore quae, quidem voluptate quod. Suscipit culpa illo aliquam id corporis architecto repellat eligendi dolorum, vitae repellendus, reiciendis, ratione magni!</p> </div>
+
+         </div>
+         <br><br>
+
+        <div class="conte-form">
+            <h6>Conviértete en un </h6>
+            <h2>ORADOR</h2>
+            <p>Anótate como orador para dar una charla "ignite". Cuéntanos de qué quieres hablar!</p>
+            <br>
+            <div class="form">
+            <form action="Index.php" method="post">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <br> <br>
+                <textarea name="tema" id="tema" >Sobre qué quieres hablar? </textarea>
+                <p>Recuerda incluir un título para tu charla</p>
+                <br> <br>
+
+                <button>Enviar</button>
+
+            </form>
+            </div>
+            <br>
+        </div>
+            
+            <div class="footer">
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Conferencia</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Estudiantes</a></li>
+                </ul>
+
+
+            </div>
+
+        
+    </div>
+</body>
+</html>
